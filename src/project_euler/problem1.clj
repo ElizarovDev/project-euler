@@ -14,10 +14,6 @@
     (mod5 x) x
     :else 0))
 
-;(defn acc 
-;  [x y]
-;  (+ (get-value-or-null x) (get-value-or-null y)))
-
 (defn get-sum 
   [items]
   (reduce
